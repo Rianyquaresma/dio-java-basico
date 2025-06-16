@@ -1,37 +1,108 @@
-# DIO - Trilha Java Básico
+# dio-java-basico
 
-#### Autores
-- [Gleyson Sampaio](https://github.com/glysns)
+## Sobre o Projeto
 
-## Sintaxe - Desafio
+Este repositório reúne conteúdos práticos do **curso "Formação Java Básico"** da [Digital Innovation One (DIO)](https://www.dio.me/), voltado para iniciantes na linguagem Java. O objetivo é consolidar conceitos fundamentais de programação orientada a objetos utilizando Java, por meio de exemplos, exercícios e anotações de estudo.
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+---
 
-1. Crie o programa `ContaBanco.java` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
+## Estrutura do Projeto
 
-###### Revise sobre regras de declaração de variáveis
+O projeto está organizado em diretórios que representam os módulos e aulas do curso. Cada pasta contém códigos-fonte exemplificando tópicos como:
 
-| Atributo  | Tipo     | Exemplo   
-| --------- | ---------| ------- 
-| Numero    | Inteiro  | 1021 
-| Agencia   | Texto    | 067-8
-| Nome Cliente | Texto    | MARIO ANDRADE
-| Saldo | Decimal |237.48
+- **Sintaxe básica do Java**
+- **Estruturas de controle**
+- **Coleções**
+- **Programação Orientada a Objetos (POO)**
+- **Criação de classes, métodos e objetos**
+- **Herança, polimorfismo, abstração e encapsulamento**
+- **Exercícios práticos de fixação**
 
+---
 
-###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+## Tecnologias Utilizadas
 
-* Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)* 
+- **Java JDK** (versão recomendada: 11 ou superior)
+- **IDE**: [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org/) ou outra de sua preferência
+- **Git** para versionamento de código
 
-###### Revise sobre concatenação e classe String com método concat
+---
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+## Como Executar
 
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+### Pré-requisitos
 
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+- Ter o Java JDK instalado ([download aqui](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html))
+- Ter o Git instalado ([download aqui](https://git-scm.com/))
+- Uma IDE para desenvolvimento Java
 
+### Passos
+
+1. **Clone o repositório:**
+    ```bash
+    git clone https://github.com/Rianyquaresma/dio-java-basico.git
+    ```
+2. **Acesse o diretório do projeto:**
+    ```bash
+    cd dio-java-basico
+    ```
+3. **Abra o projeto na sua IDE preferida.**
+4. **Compile e execute as classes Java conforme o módulo ou exemplo desejado.**
+    - Normalmente, basta clicar com o botão direito na classe com o método `main` e escolher "Run".
+
+---
+
+## Exemplos de Conteúdo
+
+- **`src/main/java/`**
+    - Exemplos práticos de classes, métodos, atributos, construtores, herança, etc.
+- **`src/test/java/`**
+    - Exercícios e testes de fixação.
+
+---
+
+## Organização dos Diretórios
+
+```
+dio-java-basico/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── ... (pacotes e classes)
+│   └── test/
+│       └── java/
+│           └── ... (exercícios/testes)
+├── README.md
+└── ...
+```
+
+---
+
+## Contribuição
+
+Sinta-se à vontade para abrir issues com dúvidas ou sugestões, ou enviar pull requests com melhorias e correções.
+
+1. Fork este repositório
+2. Crie uma branch para sua feature ou correção: `git checkout -b minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: Minha nova feature'`
+4. Push para a branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
+---
+
+## Autor
+
+[Rianyquaresma](https://github.com/Rianyquaresma)
+
+---
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## Referências
+
+- [Documentação Oficial do Java](https://docs.oracle.com/en/java/)
+- [Digital Innovation One](https://www.dio.me/)
